@@ -1,0 +1,19 @@
+{
+  "name": "ripsaw",
+  "license": "MIT",
+  "version": "0.0.2",
+  "description": "An events module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lookyhooky/ripsaw.git"
+  },
+  "author": "John Hooks",
+  "bugs": {
+    "url": "https://github.com/lookyhooky/ripsaw/issues"
+  },
+  "homepage": "https://github.com/lookyhooky/ripsaw#readme"
+}
