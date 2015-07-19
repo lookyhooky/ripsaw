@@ -5,7 +5,7 @@
   "description": "An events module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/lookyhooky/ripsaw/issues"
   },
-  "homepage": "https://github.com/lookyhooky/ripsaw#readme"
+  "homepage": "https://github.com/lookyhooky/ripsaw#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-standard": "^4.5.3",
+    "mocha": "^2.2.5"
+  }
 }
