@@ -1,7 +1,7 @@
 {
   "name": "ripsaw",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An events module",
   "main": "index.js",
   "scripts": {
@@ -17,9 +17,9 @@
   },
   "homepage": "https://github.com/lookyhooky/ripsaw#readme",
   "devDependencies": {
+    "mocha": "^2.2.5",
     "chai": "^3.0.0",
     "gulp": "^3.9.0",
-    "gulp-standard": "^4.5.3",
-    "mocha": "^2.2.5"
+    "gulp-standard": "^4.5.3"
   }
 }

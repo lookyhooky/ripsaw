@@ -13,5 +13,4 @@ gulp.task('watch', function() {
   gulp.watch('./index.js', ['standard'])
 })
 
-gulp.task('default', ['standard', 'watch'])
-
+gulp.task('default', ['standard'])
