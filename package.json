@@ -1,9 +1,9 @@
 {
   "name": "ripsaw",
   "license": "MIT",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "An events module",
-  "main": "index.js",
+  "main": "ripsaw.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
