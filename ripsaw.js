@@ -4,12 +4,11 @@
 
 var slice
 var toString
-var hasOwnProperty
 var hOP
 
 slice = Array.prototype.slice
 toString = Object.prototype.toString
-hasOwnProperty = hOP = Object.prototype.hasOwnProperty
+hOP = Object.prototype.hasOwnProperty
 
 var ripsaw = {}
 

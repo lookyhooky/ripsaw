@@ -2,7 +2,7 @@ var gulp = require('gulp')
 var standard = require('gulp-standard')
 
 gulp.task('standard', function() {
-  return gulp.src(['./index.js'])
+  return gulp.src(['./ripsaw.js', './test/*.js'])
     .pipe(standard())
     .pipe(standard.reporter('default', {
       breakOnError: false
@@ -10,7 +10,7 @@ gulp.task('standard', function() {
 })
 
 gulp.task('watch', function() {
-  gulp.watch('./index.js', ['standard'])
+  gulp.watch(['./ripsaw.js', './test/*.js'], ['standard'])
 })
 
 gulp.task('default', ['standard'])

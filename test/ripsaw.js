@@ -1,4 +1,8 @@
+var it = require('mocha').it
+var describe = require('mocha').describe
+var beforeEach = require('mocha').beforeEach
 var expect = require('chai').expect
+
 var ripsaw = require('../ripsaw')
 
 describe('Ripsaw', function () {
@@ -103,7 +107,7 @@ describe('Ripsaw', function () {
   describe('#listenOnce()', function () {
     it('should execute and then remove itself from the target object', function () {
       var control = false
-      var callback = function() { control = true }
+      var callback = function () { control = true }
       one.listenOnce(two, 'foo', callback)
       two.trigger('foo')
       expect(control).to.equal(true)
@@ -121,7 +125,7 @@ function mixin (destination, source) {
   var key
   for (key in source) {
     if (source.hasOwnProperty(key) &&
-        toString.call(source[key]) == '[object Function]') {
+        toString.call(source[key]) === '[object Function]') {
       destination[key] = source[key]
     }
   }
